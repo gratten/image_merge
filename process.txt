@@ -1,0 +1,14 @@
+/python/scale
+	> run script on file in origin folder to place transparent version of scale on map image
+	> result stored in output folder
+	> place result file in merge/origin
+/python/merge
+	> run image_strip script on all origin files
+	> run image_merge script to join images
+	> note trim settings and transparent settings for scale - comment/uncomment accordingly
+	> also note merging sequence
+	> copy final merged image to /maps folder
+gimp
+	> create new gimp file (5000 x 7000 in this case)
+	> open as new layer - map image
+	> do the gimp thing then export
